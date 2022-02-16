@@ -10,25 +10,47 @@ function M.init()
   -- https://coolors.co/393b44-c94f6d-81b29a-dbc074-719cd6-9d79d6-63cdcf-dfdfe0-f4a261-d67ad2
 
   -- stylua: ignore
+  local colors2 = {
+    red = '#E06C75',
+    dark_red = '#BE5046',
+    green = '#98C379',
+    yellow = '#E5C07B',
+    dark_yellow = '#D19A66',
+    blue = '#61AFEF',
+    purple = '#C678DD',
+    cyan = '#56B6C2',
+    white = '#ABB2BF',
+    black = '#282C34',
+    foreground = '#ABB2BF',
+    background = '#282C34',
+    comment_grey = '#5C6370',
+    gutter_fg_grey = '#4B5263',
+    cursor_grey = '#2C323C',
+    visual_grey = '#3E4452',
+    menu_grey = '#3E4452',
+    special_grey = '#3B4048',
+    vertsplit = '#3E4452',
+  }
+
   local colors = {
     meta       = { name = "dbfox", light = false },
 
     none       = "NONE",
-    bg         = "#192330",
+    bg         = "#23272e",
 
     fg         = "#cdcecf",
-    fg_gutter  = "#3b4261",
+    fg_gutter  = "#4B5263",
 
-    black      = "#393b44",
-    red        = "#c94f6d",
-    green      = "#81b29a",
-    yellow     = "#dbc074",
-    blue       = "#719cd6",
-    magenta    = "#9d79d6",
-    cyan       = "#63cdcf",
-    white      = "#dfdfe0",
-    orange     = "#f4a261",
-    pink       = "#d67ad2",
+    black      = "#282D34",
+    red        = "#E06C70",
+    green      = "#92C179",
+    yellow     = "#E5C07B",
+    blue       = "#61AFEF",
+    magenta    = "#C678DB",
+    cyan       = "#56B6C2",
+    white      = "#ABB2BF",
+    orange     = "#F6A261",
+    pink       = "#A58155",
 
     black_br   = "#475072",
     red_br     = "#d6616b",
