@@ -1,6 +1,7 @@
 local M = {}
 
 M.foxes = {
+  "dbfox",
   "nightfox",
   "nordfox",
   "dayfox",
