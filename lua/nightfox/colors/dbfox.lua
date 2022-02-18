@@ -93,7 +93,7 @@ function M.init()
 
   util.bg = colors.bg
 
-  colors.bg_alt = util.darken(colors.bg, 0.75, "#000000")
+  colors.bg_alt = "#1E2227"
   colors.bg_highlight = util.brighten(colors.bg, 0.10)
 
   colors.fg_alt = util.darken(colors.fg, 0.85, "#000000")
