@@ -38,30 +38,30 @@ function M.init()
     none       = "NONE",
     bg         = "#23272e",
 
-    fg         = "#cdcecf",
-    fg_gutter  = "#4B5263",
+    fg         = "#abb2bf",
+    fg_gutter  = "#4b5263",
 
-    black      = "#282D34",
-    red        = "#E06C70",
-    green      = "#92C179",
-    yellow     = "#E5C07B",
-    blue       = "#61AFEF",
-    magenta    = "#C678DB",
-    cyan       = "#56B6C2",
-    white      = "#ABB2BF",
-    orange     = "#F6A261",
-    pink       = "#A58155",
+    black      = "#282d34",
+    red        = "#e06c70",
+    green      = "#92c179",
+    yellow     = "#e5c07b",
+    blue       = "#61afef",
+    magenta    = '#728fff',
+    cyan       = "#56b6c2",
+    white      = "#abb2bf",
+    orange     = "#f6a261",
+    pink       = "#c678db",
 
     black_br   = "#475072",
     red_br     = "#d6616b",
     green_br   = "#58cd8b",
     yellow_br  = "#ffe37e",
-    blue_br    = "#84cee4",
-    magenta_br = "#b8a1e3",
-    cyan_br    = "#59f0ff",
+    blue_br    = "#81afff",
+    magenta_br = '#8296ef',
+    cyan_br    = "#59d0e4",
     white_br   = "#f2f2f2",
-    orange_br  = "#f6a878",
-    pink_br    = "#df97db",
+    orange_br  = "#f6a871",
+    pink_br    = "#df98db",
 
     -- -15 brightness -15 saturation
     black_dm   = "#32343b",
@@ -75,7 +75,7 @@ function M.init()
     orange_dm  = "#e28940",
     pink_dm    = "#c15dbc",
 
-    comment    = "#526175",
+    comment    = '#5C6370',
 
     git = {
       add      = "#70a288",
@@ -94,6 +94,7 @@ function M.init()
   util.bg = colors.bg
 
   colors.bg_alt = "#1E2227"
+  -- colors.bg_alt = util.brighten(colors.bg, 0.10)
   colors.bg_highlight = util.brighten(colors.bg, 0.10)
 
   colors.fg_alt = util.darken(colors.fg, 0.85, "#000000")
