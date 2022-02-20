@@ -42,13 +42,13 @@ function M.init()
     fg_gutter  = "#4b5263",
 
     black      = "#282d34",
-    red        = "#e06c70",
+    magenta    = "#e06c70",
     green      = "#92c179",
     yellow     = "#e5c07b",
     blue       = "#61afef",
-    magenta    = '#728fff',
+    red        = '#728fff',
     cyan       = "#56b6c2",
-    white      = "#abb2bf",
+    white      = "#bbc2df",
     orange     = "#f6a261",
     pink       = "#c678db",
 
