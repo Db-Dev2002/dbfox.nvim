@@ -46,7 +46,7 @@ function M.init()
     green      = "#92c179",
     yellow     = "#e5c07b",
     blue       = "#61afef",
-    red        = '#728fff',
+    red        = '#627fe9',
     cyan       = "#56b6c2",
     white      = "#bbc2df",
     orange     = "#f6a261",
