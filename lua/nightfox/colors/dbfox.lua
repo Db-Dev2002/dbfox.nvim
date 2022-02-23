@@ -36,7 +36,7 @@ function M.init()
     meta       = { name = "dbfox", light = false },
 
     none       = "NONE",
-    bg         = "#23272e",
+    bg         = "#282c34",
 
     fg         = "#abb2bf",
     fg_gutter  = "#4b5263",
