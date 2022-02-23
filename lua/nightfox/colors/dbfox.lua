@@ -93,7 +93,7 @@ function M.init()
 
   util.bg = colors.bg
 
-  colors.bg_alt = "#1E2227"
+  colors.bg_alt = "#22272e"
   -- colors.bg_alt = util.brighten(colors.bg, 0.10)
   colors.bg_highlight = util.brighten(colors.bg, 0.10)
 
@@ -113,7 +113,7 @@ function M.init()
   }
 
   colors.git.ignore = colors.black
-  colors.border_highlight = colors.blue
+  colors.border_highlight = colors.cyan
   colors.border = colors.black
 
   -- Popups and statusline always get a dark background
