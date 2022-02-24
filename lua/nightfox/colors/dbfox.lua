@@ -42,11 +42,11 @@ function M.init()
     fg_gutter  = "#4b5263",
 
     black      = "#282d34",
-    magenta    = "#e06c70",
+    red        = "#e06c70",
     green      = "#92c179",
     yellow     = "#e5c07b",
     blue       = "#61afef",
-    red        = '#627fe9',
+    magenta    = '#627fe9',
     cyan       = "#56b6c2",
     white      = "#bbc2df",
     orange     = "#f6a261",
@@ -99,7 +99,7 @@ function M.init()
   colors.bg_highlight = "#333945"
 
   -- colors.fg_alt = util.darken(colors.fg, 0.85, "#000000")
-  colors.fg_alt = "#5a5a5a"
+  colors.fg_alt = "#abb2bf"
 
   colors.diff = {
     add = util.darken(colors.green, 0.15),
